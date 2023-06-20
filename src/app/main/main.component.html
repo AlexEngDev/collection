@@ -20,20 +20,14 @@
             <div class="blog__items">
                 <article *ngFor="let item of arrOfPicture" class="blog__item item-blog">
                     <div class="item-blog__header">
-                        <a href="" class="item-blog__image">
+                        <a [href]="item" class="item-blog__image">
                             <img [src]="item" alt="image">
                         </a>
                         <a href="" class="item-blog__category">Limoges</a>
                     </div>
                     <div class="item-blog__body">
-                        <h4 class="item-blog__title">
-                            <a href="" class="item-blog__link-title">How to Grab Your Reader's Attention</a>
-                        </h4>
-                        <div class="item-blog__text text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna
-                                adipiscing praesent velit viverra sit semper lorem.</p>
-                        </div>
-                        <a href="" class="item-blog__link">Read now</a>
+
+
                     </div>
                 </article>
             </div>
