@@ -18,174 +18,14 @@
                 </div>
             </div>
             <div class="blog__items">
-                <article class="blog__item item-blog">
+                <article *ngFor="let item of arrOfPicture" class="blog__item item-blog">
                     <div class="item-blog__header">
                         <a href="" class="item-blog__image">
-                            <img src="../../assets/imgs/products/photo_1_2023-06-20_13-59-03.jpg" alt="image">
+                            <img [src]="item" alt="image">
                         </a>
                         <a href="" class="item-blog__category">Limoges</a>
                     </div>
                     <div class="item-blog__body">
-
-                        <h4 class="item-blog__title">
-                            <a href="" class="item-blog__link-title">How to Use Social Proof in Marketing</a>
-                        </h4>
-                        <div class="item-blog__text text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna
-                                adipiscing praesent velit viverra sit semper lorem.</p>
-                        </div>
-                        <a href="" class="item-blog__link">Read now</a>
-                    </div>
-                </article>
-                <article class="blog__item item-blog">
-                    <div class="item-blog__header">
-                        <a href="" class="item-blog__image">
-                            <img src="../../assets/imgs/products/photo_2_2023-06-20_13-59-03.jpg" alt="image">
-                        </a>
-                        <a href="" class="item-blog__category">Limoges</a>
-                    </div>
-                    <div class="item-blog__body">
-
-                        <h4 class="item-blog__title">
-                            <a href="" class="item-blog__link-title">Make a great first impression with these titles</a>
-                        </h4>
-                        <div class="item-blog__text text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna
-                                adipiscing praesent velit viverra sit semper lorem.</p>
-                        </div>
-                        <a href="" class="item-blog__link">Read now</a>
-                    </div>
-                </article>
-                <article class="blog__item item-blog">
-                    <div class="item-blog__header">
-                        <a href="" class="item-blog__image">
-                            <img src="../../assets/imgs/products/photo_3_2023-06-20_13-59-03.jpg" alt="image">
-
-                        </a>
-                        <a href="" class="item-blog__category">Limoges</a>
-                    </div>
-                    <div class="item-blog__body">
-
-                        <h4 class="item-blog__title">
-                            <a href="" class="item-blog__link-title">How to Grab Your Reader's Attention</a>
-                        </h4>
-                        <div class="item-blog__text text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna
-                                adipiscing praesent velit viverra sit semper lorem.</p>
-                        </div>
-                        <a href="" class="item-blog__link">Read now</a>
-                    </div>
-                </article>
-                <article class="blog__item item-blog">
-                    <div class="item-blog__header">
-                        <a href="" class="item-blog__image">
-                            <img src="../../assets/imgs/products/photo_4_2023-06-20_13-59-03.jpg" alt="image">
-
-                        </a>
-                        <a href="" class="item-blog__category">Limoges</a>
-                    </div>
-                    <div class="item-blog__body">
-
-                        <h4 class="item-blog__title">
-                            <a href="" class="item-blog__link-title">How to Grab Your Reader's Attention</a>
-                        </h4>
-                        <div class="item-blog__text text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna
-                                adipiscing praesent velit viverra sit semper lorem.</p>
-                        </div>
-                        <a href="" class="item-blog__link">Read now</a>
-                    </div>
-                </article>
-                <article class="blog__item item-blog">
-                    <div class="item-blog__header">
-                        <a href="" class="item-blog__image">
-                            <img src="../../assets/imgs/products/photo_5_2023-06-20_13-59-03.jpg" alt="image">
-
-                        </a>
-                        <a href="" class="item-blog__category">Limoges</a>
-                    </div>
-                    <div class="item-blog__body">
-
-                        <h4 class="item-blog__title">
-                            <a href="" class="item-blog__link-title">How to Grab Your Reader's Attention</a>
-                        </h4>
-                        <div class="item-blog__text text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna
-                                adipiscing praesent velit viverra sit semper lorem.</p>
-                        </div>
-                        <a href="" class="item-blog__link">Read now</a>
-                    </div>
-                </article>
-                <article class="blog__item item-blog">
-                    <div class="item-blog__header">
-                        <a href="" class="item-blog__image">
-                            <img src="../../assets/imgs/products/photo_6_2023-06-20_13-59-03.jpg" alt="image">
-
-                        </a>
-                        <a href="" class="item-blog__category">Limoges</a>
-                    </div>
-                    <div class="item-blog__body">
-
-                        <h4 class="item-blog__title">
-                            <a href="" class="item-blog__link-title">How to Grab Your Reader's Attention</a>
-                        </h4>
-                        <div class="item-blog__text text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna
-                                adipiscing praesent velit viverra sit semper lorem.</p>
-                        </div>
-                        <a href="" class="item-blog__link">Read now</a>
-                    </div>
-                </article>
-                <article class="blog__item item-blog">
-                    <div class="item-blog__header">
-                        <a href="" class="item-blog__image">
-                            <img src="../../assets/imgs/products/photo_7_2023-06-20_13-59-03.jpg" alt="image">
-
-                        </a>
-                        <a href="" class="item-blog__category">Limoges</a>
-                    </div>
-                    <div class="item-blog__body">
-
-                        <h4 class="item-blog__title">
-                            <a href="" class="item-blog__link-title">How to Grab Your Reader's Attention</a>
-                        </h4>
-                        <div class="item-blog__text text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna
-                                adipiscing praesent velit viverra sit semper lorem.</p>
-                        </div>
-                        <a href="" class="item-blog__link">Read now</a>
-                    </div>
-                </article>
-                <article class="blog__item item-blog">
-                    <div class="item-blog__header">
-                        <a href="" class="item-blog__image">
-                            <img src="../../assets/imgs/products/photo_8_2023-06-20_13-59-03.jpg" alt="image">
-
-                        </a>
-                        <a href="" class="item-blog__category">Limoges</a>
-                    </div>
-                    <div class="item-blog__body">
-
-                        <h4 class="item-blog__title">
-                            <a href="" class="item-blog__link-title">How to Grab Your Reader's Attention</a>
-                        </h4>
-                        <div class="item-blog__text text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna
-                                adipiscing praesent velit viverra sit semper lorem.</p>
-                        </div>
-                        <a href="" class="item-blog__link">Read now</a>
-                    </div>
-                </article>
-                <article class="blog__item item-blog">
-                    <div class="item-blog__header">
-                        <a href="" class="item-blog__image">
-                            <img src="../../assets/imgs/products/photo_9_2023-06-20_13-59-03.jpg" alt="image">
-
-                        </a>
-                        <a href="" class="item-blog__category">Limoges</a>
-                    </div>
-                    <div class="item-blog__body">
-
                         <h4 class="item-blog__title">
                             <a href="" class="item-blog__link-title">How to Grab Your Reader's Attention</a>
                         </h4>
@@ -470,7 +310,6 @@
             </div>
         </div>
     </section>
-
     <section class="page__start start">
         <div class="start__container">
             <div class="start__body">
