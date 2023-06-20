@@ -117,7 +117,7 @@ body {
 
 .button {
     color: #fff;
-    background-color: #3D96F4;
+    background-color: #f09433;
     transition: background-color 0.3s ease 0s;
     display: inline-block;
     text-align: center;
@@ -166,4 +166,14 @@ body {
     font-size: 16px;
     color: #fff;
     line-height: 1.62;
+}
+
+.header__logo img {
+    width: 5rem;
+}
+
+.header__logo img:hover {
+    width: 7rem;
+    border: 2px solid rgb(228, 174, 28);
+    border-radius: 25px;
 }
