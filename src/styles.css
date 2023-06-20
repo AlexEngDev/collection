@@ -512,7 +512,7 @@ body {
     .header__logo {
         width: 32px;
         flex: 0 0 40px;
-        overflow: hidden;
+
     }
 
     .cart-header__text {
@@ -552,15 +552,7 @@ body {
     position: relative;
 }
 
-.main__header::before {
-    content: "";
-    background: url('https://images.pexels.com/photos/17168340/pexels-photo-17168340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') 0 0 / 100% no-repeat;
-    width: 122px;
-    height: 122px;
-    position: absolute;
-    top: -10px;
-    left: -34px;
-}
+
 
 .main__text {
     color: #9C9C9C;
